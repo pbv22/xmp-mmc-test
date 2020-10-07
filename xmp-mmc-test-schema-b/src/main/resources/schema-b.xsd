@@ -17,11 +17,13 @@
 <schema targetNamespace="urn:example:com.example.schema.b"
 	xmlns="http://www.w3.org/2001/XMLSchema"
 	xmlns:tns="urn:example:com.example.schema.b">
-	<element name="b" type="tns:B"/>
-	<complexType name="B">
+	<element name="address" type="tns:Address"/>
+	<complexType name="Address">
 		<sequence>
-			<element name="firstName" type="string"/>
-			<element name="lastName" type="string"/>
+			<element name="street" type="string"/>
+			<element name="houseNo" type="string"/>
+			<element name="zip" type="string"/>
+			<element name="city" type="string"/>
 		</sequence>
 	</complexType>
 </schema>

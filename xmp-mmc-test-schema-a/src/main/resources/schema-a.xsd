@@ -17,8 +17,8 @@
 <schema targetNamespace="urn:example:com.example.schema.a"
 	xmlns="http://www.w3.org/2001/XMLSchema"
 	xmlns:tns="urn:example:com.example.schema.a">
-	<element name="a" type="tns:A"/>
-	<complexType name="A">
+	<element name="name" type="tns:Name"/>
+	<complexType name="Name">
 		<sequence>
 			<element name="firstName" type="string"/>
 			<element name="lastName" type="string"/>
