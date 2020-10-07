@@ -10,7 +10,7 @@ module. All modules built afterwards will use the catalog determined for the
 first module. Any catalog configured for these plugins will not be
 resolved/used.
 
-## Demo Project
+## The Demo Project
 
 The demo project consists of an aggregator and several modules for helper
 artifacts. Among these: XML schemas and an XML catalog that makes these schemas
