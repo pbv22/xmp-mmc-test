@@ -23,13 +23,19 @@ different schemas.
 ### Execute/Build the Demo Project
 
 1. Clone the repository
-`git clone https://github.com/pbv22/xmp-mmc-test.git`
+```
+git clone https://github.com/pbv22/xmp-mmc-test.git
+```
 
 2. Change into the aggregator's directory
-`cd xmp-mmc-test/xmp-mmc-test`
+```
+cd xmp-mmc-test/xmp-mmc-test
+```
 
 3. Execute the build
-`mvn clean install`
+```
+mvn clean install
+```
 
 #### Expected Behavior
 
