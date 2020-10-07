@@ -121,8 +121,8 @@ WSDL projects are built:
 	```
 	i.e. _schema-b.xsd_ is looked for in _xmp-mmc-test-wsdl-**a**/target/xsd_
 	where it can't be found. Because of the relative paths in the catalog file
-	that means that the catalog file is also read from that directory. But the
-	catalog should be read from _xmp-mmc-test-wsdl-**b**/target/xsd_.
+	that means that the catalog file is also read from that directory. The
+	catalog should actually be read from _xmp-mmc-test-wsdl-**b**/target/xsd_.
 	
 	2.2 The build completes successfully. This may be ok, the build needn't
 	necessarily fail altogether under the given circumstances. But the info
