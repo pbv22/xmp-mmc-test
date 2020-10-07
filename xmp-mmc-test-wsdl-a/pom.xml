@@ -19,24 +19,17 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	
+	<parent>
+		<groupId>com.example.xmp.mmc</groupId>
+		<artifactId>xmp-mmc-test-transformer-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../xmp-mmc-test-transformer-parent/pom.xml</relativePath>
+	</parent>
+	
 	<groupId>com.example.xmp.mmc</groupId>
-	<artifactId>xmp-mmc-test</artifactId>
+	<artifactId>xmp-mmc-test-wsdl-a</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
 	
-	<name>XML-Maven-Plugin-Multi-Module-Catalog-Test</name>
-	<description>An example project with multiple modules using xml-maven-plugin
-		and an XML catalog to demonstrate a potential bug in
-		xml-maven-plugin.</description>
-	
-	<modules>
-		<module>../xmp-mmc-test-catalog/pom.xml</module>
-		<module>../xmp-mmc-test-schema-a/pom.xml</module>
-		<module>../xmp-mmc-test-schema-b/pom.xml</module>
-		<module>../xmp-mmc-test-transformer-parent/pom.xml</module>
-		<module>../xmp-mmc-test-wsdl-a/pom.xml</module>
-		<module>../xmp-mmc-test-wsdl-b/pom.xml</module>
-		<module>../xmp-mmc-test-xslt/pom.xml</module>
-	</modules>
+	<name>XML-Maven-Plugin-Multi-Module-Catalog-Test: WSDL for Service A</name>
 	
 </project>
