@@ -113,7 +113,7 @@ WSDL projects are built:
 2. Build of _xmp-mmc-test-wsdl-b_ completes successfully (generally acceptable),
 but:
 	
-	2.1 _xml-maven-plugin_ issues an info-message:
+	2.1 _xml-maven-plugin_ issues an info message:
 	```
 	[INFO] --- xml-maven-plugin:1.0.2:transform (transform-wsdl) @ xmp-mmc-test-wsdl-b ---
 	[INFO] Transforming file: /home/paul/wc/xmp-mmc-test/xmp-mmc-test-wsdl-b/src/main/resources/service-b.wsdl
@@ -125,8 +125,8 @@ but:
 	that means that the catalog file is also read from that directory. But the
 	catalog should be read from _xmp-mmc-test-wsdl-**b**/target/xsd_.
 	
-	Additionally the info message saying that the requested document
-	_.../schema-b.xsd_ should rather be a warning.
+	In addition the info message saying that the requested document
+	_.../schema-b.xsd_ could not be found should rather be a warning.
 	
 	2.2 The transformed version of _wsdl-b.wsdl_ is in
 	_xmp-mmc-test-wsdl-b/target/generated-resources/xml/xslt/service-b.wsdl_
