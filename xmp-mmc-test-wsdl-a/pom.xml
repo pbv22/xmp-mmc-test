@@ -32,4 +32,12 @@
 	
 	<name>XML-Maven-Plugin-Multi-Module-Catalog-Test: WSDL for Service A</name>
 	
+	<dependencies>
+		<dependency>
+			<groupId>com.example.xmp.mmc</groupId>
+			<artifactId>xmp-mmc-test-schema-a</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	
 </project>
