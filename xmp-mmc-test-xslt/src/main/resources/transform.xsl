@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <!--
    Copyright 2020 pbv22@github.com
 
@@ -13,7 +14,6 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet exclude-result-prefixes="xsl" version="1.0"
 	xmlns="http://schemas.xmlsoap.org/wsdl/"
 	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
