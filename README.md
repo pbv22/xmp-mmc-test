@@ -110,8 +110,7 @@ WSDL projects are built:
 
 1. Build of _xmp-mmc-test-wsdl-a_ works as expected.
 
-2. Build of _xmp-mmc-test-wsdl-b_ completes successfully (generally acceptable),
-but:
+2. Build of _xmp-mmc-test-wsdl-b_ completes successfully, but:
 	
 	2.1 _xml-maven-plugin_ issues an info message:
 	```
@@ -125,10 +124,12 @@ but:
 	that means that the catalog file is also read from that directory. But the
 	catalog should be read from _xmp-mmc-test-wsdl-**b**/target/xsd_.
 	
-	In addition the info message saying that the requested document
-	_.../schema-b.xsd_ could not be found should rather be a warning.
+	2.2 The build completes successfully. This may be ok, the build needn't
+	necessarily fail altogether under the given circumstances. But the info
+	messsage saying that the requested document _.../schema-b.xsd_ could not be
+	found should rather be a warning.
 	
-	2.2 The transformed version of _wsdl-b.wsdl_ is in
+	2.3 The transformed version of _wsdl-b.wsdl_ is in
 	_xmp-mmc-test-wsdl-b/target/generated-resources/xml/xslt/service-b.wsdl_
 	but looks like this:
 	
