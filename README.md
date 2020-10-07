@@ -113,12 +113,14 @@ WSDL projects are built:
 2. Build of _xmp-mmc-test-wsdl-b_ completes successfully, but:
 	
 	2.1 _xml-maven-plugin_ issues an info message:
+	
 	```
 	[INFO] --- xml-maven-plugin:1.0.2:transform (transform-wsdl) @ xmp-mmc-test-wsdl-b ---
 	[INFO] Transforming file: /home/paul/wc/xmp-mmc-test/xmp-mmc-test-wsdl-b/src/main/resources/service-b.wsdl
 	jar:file:/home/paul/wc/xmp-mmc-test/xmp-mmc-test-xslt/target/xmp-mmc-test-xslt-1.0.0-SNAPSHOT.jar!/transform.xsl; Zeilennummer38; Spaltennummer60; Angefordertes Dokument kann nicht geladen werden: /home/paul/wc/xmp-mmc-test/xmp-mmc-test-wsdl-a/target/xsd/schema-b.xsd (Datei oder Verzeichnis nicht gefunden)
 	[INFO] Transformed 1 file(s).
 	```
+	
 	i.e. _schema-b.xsd_ is looked for in _xmp-mmc-test-wsdl-**a**/target/xsd_
 	where it can't be found. Because of the relative paths in the catalog file
 	that means that the catalog file is also read from that directory. The
