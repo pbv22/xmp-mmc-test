@@ -140,4 +140,8 @@ WSDL projects are built:
 	<types/>
 	...
 	```
+	
+	i.e. the transformation could not insert the contents from the imported
+	schema, which is only logical, because the schema file could not be
+	resolved.
 
