@@ -24,5 +24,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	
 	<name>XML-Maven-Plugin-Multi-Module-Catalog-Test: Schema A</name>
+	<description>Simple XML schema containing the data types for a web service
+		A.</description>
 	
 </project>

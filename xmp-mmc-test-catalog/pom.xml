@@ -24,5 +24,11 @@
 	<version>1.0.0-SNAPSHOT</version>
 	
 	<name>XML-Maven-Plugin-Multi-Module-Catalog-Test: XML Catalog</name>
+	<description>An XML catalog that makes fabricated (non-existing, pseudo-)
+		URLs starting with http://example.com/schema/... for schema-a.xsd and
+		schema-b.xsd resolvable to local files. The local copies of the schemas
+		need to be created in the target directory using the
+		maven-dependency-plugin and the catalog file must be placed next to the
+		schemas using the same mechanism.</description>
 	
 </project>

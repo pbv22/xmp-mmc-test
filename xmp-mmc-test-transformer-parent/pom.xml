@@ -24,7 +24,15 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
-	<name>XML-Maven-Plugin-Multi-Module-Catalog-Test: Parent for XSLT-Transforming Modules</name>
+	<name>XML-Maven-Plugin-Multi-Module-Catalog-Test: Parent for
+		XSLT-Transforming Modules</name>
+	<description>Parent-project to centralize settings for WSDL-projects that
+		use xml-maven-plugin to transform WSDL files. Makes these settings
+		inheritable. The settings include: (a) copying the XML schemas and the
+		corresponding XML catalog to the target directory, (b) perform the
+		transformation implemented in transform.xsl and (c) use catalog.xml
+		to resolve the fabricated URLs used in the WSDL files to reference
+		schemas in the types-section.</description>
 	
 	<dependencies>
 		<dependency>

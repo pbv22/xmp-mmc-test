@@ -31,6 +31,9 @@
 	<version>1.0.0-SNAPSHOT</version>
 	
 	<name>XML-Maven-Plugin-Multi-Module-Catalog-Test: WSDL for Service B</name>
+	<description>Simple WSDL for a web service A. The WSDL focuses on the parts
+		affected by the transformation - thus to make the potential bug visible.
+		It is not of much use as a real WSDL.</description>
 	
 	<dependencies>
 		<dependency>
